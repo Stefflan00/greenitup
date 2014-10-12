@@ -1,5 +1,5 @@
-<h1>Be Informed </h1>
-<p>Give me your email and keep up to date on my cat's thoughts.</p>
+<h1>do Subscribe</h1>
+
 <%= form_tag('/emailapi/subscribe', method: "post", id: "subscribe") do -%>
    <%= email_field(:email, :address, {id: "email", placeholder: "email address"}) %>
    <%= submit_tag("Sign me up!") %>

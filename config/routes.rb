@@ -2,7 +2,9 @@ Rails.application.routes.draw do
   root 'emailapi#index'
   post 'emailapi/subscribe' => 'emailapi#subscribe'
   get 'emailapi/last_step' => 'emailapi#last_step'
-
+  get 'emailapi/do_unsubscribe' => 'emailapi#do_unsubscribe'
+  post 'emailapi/unsubscribe' => 'emailapi#unsubscribe'
+  get 'emailapi/too_bad' => 'emailapi#too_bad' 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

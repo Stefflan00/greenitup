@@ -1,0 +1,6 @@
+<h1>Do UnSubscribe</h1>
+
+<%= form_tag('/emailapi/unsubscribe', method: "post", id: "unsubscribe") do -%>
+   <%= email_field(:email, :address, {id: "email", placeholder: "email address"}) %>
+   <%= submit_tag("Sign me out!") %>
+<% end %>
