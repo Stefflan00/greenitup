@@ -58,6 +58,7 @@ GEM
     commonjs (0.2.7)
     erubis (2.7.0)
     execjs (2.2.1)
+    google-analytics-turbolinks (0.0.4)
     hike (1.2.3)
     httparty (0.13.1)
       json (~> 1.8)
@@ -144,6 +145,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
   gibbon!
+  google-analytics-turbolinks
   jbuilder (~> 2.0)
   jquery-rails
   less-rails
