@@ -27,7 +27,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'gibbon', git: 'git://github.com/amro/gibbon.git'
 gem "therubyracer"
-gem "less-rails"    
+gem "less-rails"
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git', :branch => "bootstrap3"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -40,3 +40,6 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+
+gem 'google-tag-manager-rails', '~> 0.1.3'
