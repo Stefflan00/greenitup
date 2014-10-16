@@ -40,4 +40,3 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-gem 'google-analytics-turbolinks'
