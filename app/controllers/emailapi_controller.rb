@@ -5,7 +5,7 @@ def index
 end
 
 def subscribe
-  @list_id = "b7146ccd68"
+  @list_id = ENV["mailchimp_list"]
   gb = Gibbon::API.new
   email = params[:email][:address]
   begin
@@ -32,7 +32,7 @@ def do_unsubscribe
 end
 
 def unsubscribe
-  @list_id = "b7146ccd68"
+  @list_id = ENV["mailchimp_list"]
   gb = Gibbon::API.new
   email = params[:email][:address]
 
